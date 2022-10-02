@@ -45,7 +45,7 @@ body {
 }
 
 .logo img {
-    width: 240px;
+    width: auto;
     height: 72px;
     border-radius: 2.5rem;
     margin-right: 0.8rem;
@@ -143,6 +143,27 @@ main {
 }
 .nav-text{
     padding-left: 18px;
+}
+
+.nav-link button {
+    background: none;
+    border: 0px;
+    padding: 0px;
+    font-size: 17px;
+    line-height: 1;
+    outline: none;
+}
+
+.nav-link button:hover {
+    cursor: pointer;
+}
+
+.nav-link button:focus i {
+    color:#1dd65f;
+    -webkit-animation: nextarrow 1s infinite;
+    -moz-animation: nextarrow 1s infinite;
+    -o-animation: nextarrow 1s infinite;
+    animation: nextarrow 1s infinite;
 }
 
 .nav-link:hover a span{
