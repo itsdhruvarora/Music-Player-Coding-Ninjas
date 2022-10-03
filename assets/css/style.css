@@ -46,7 +46,7 @@ body {
 
 .logo img {
     width: auto;
-    height: 72px;
+    height: 61px;
     border-radius: 2.5rem;
     margin-right: 0.8rem;
     max-height: 6rem;
@@ -949,6 +949,8 @@ footer {
     z-index: 5;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    height:74px;
+    margin-left: -50px;
 }
 
 #footer-song-info {
