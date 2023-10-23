@@ -205,10 +205,10 @@ main {
 #slider {
     float: left;
     position: static;
-    width: 75%;
+    min-width: 60%;
     height: 35vh;
     margin: 0px 150px;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     perspective: 1400px;
     transform-style: preserve-3d;
     display: flex;
