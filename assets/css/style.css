@@ -394,6 +394,7 @@ input[type=radio] {
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
+    cursor: pointer;
 }
 
 .song-image-container {
@@ -495,6 +496,7 @@ input[type=radio] {
     align-items: flex-start;
     justify-content: space-between;
     width: 47%;
+    cursor: pointer;
 }
 
 .song-name-and-img-container {
@@ -663,6 +665,7 @@ input[type=radio] {
     align-items: center;
     text-align: center;
     width: 15%;
+    cursor: pointer;
 }
 
 .popular-artists-1-container p {
@@ -915,6 +918,7 @@ input[type=radio] {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 0.7rem;
+    cursor: pointer;
 }
 
 .latest-english-card-container {
